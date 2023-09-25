@@ -1,16 +1,22 @@
-# This is a sample Python script.
+from task_01 import run_task_01
+from task_02 import run_task_02
+from task_03 import run_task_03
+from task_04 import run_task_04
+from task_05 import run_task_05
+from task_06 import run_task_06
+from task_07 import run_task_07
+from task_08 import run_task_08
+from task_09 import run_task_09
+from task_10 import run_task_10
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    # run_task_01()
+    # run_task_02()
+    # run_task_03()
+    # run_task_04()
+    run_task_05()
+    # run_task_06()
+    # run_task_07()
+    # run_task_08()
+    # run_task_09()
+    # run_task_10()
