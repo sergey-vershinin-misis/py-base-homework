@@ -7,4 +7,20 @@
 
 
 def run_task_06():
-    pass
+
+    negative_numbers = []
+    non_negative_numbers = []
+    while True:
+        string_input = input('Введите число (для перехода к расчету - введите пустую строку):')
+        if len(string_input) == 0:
+            break
+
+        number = int(string_input)
+        if number < 0:
+            negative_numbers.append(number)
+        else:
+            non_negative_numbers.append(number)
+
+    result = (sorted(negative_numbers, reverse=True), sorted(non_negative_numbers))
+    print('Результат:\n', result)
+
