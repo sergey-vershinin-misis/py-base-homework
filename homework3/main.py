@@ -17,8 +17,8 @@ run-методом. Имена таких методов содержатся в
 """
 
 if __name__ == '__main__':
-    # run_task_01()
-    run_task_02()
+    run_task_01()
+    # run_task_02()
     # run_task_03()
     # run_task_04()
     # run_task_05()
